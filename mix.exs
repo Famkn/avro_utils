@@ -31,7 +31,7 @@ defmodule AvroUtils.MixProject do
       {:erlavro, "<= 2.9.4"},
       {:jason, "~> 1.0"},
       {:ex_doc, "~> 0.20", only: :dev},
-      {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.1.0", only: [:dev], runtime: false},
       {:stream_data, "~> 0.1", only: [:test, :dev]},
       {:randex, "~> 0.4", only: :test},
       {:google_api_big_query, "~> 0.4", only: :test},
